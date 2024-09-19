@@ -1,0 +1,169 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+
+    --dark-background:#1F2937;
+    --button:#3882F6;
+    --quote-background:#E5E7EB;
+    --text-color-main:#F9FAF8;
+}
+
+a{
+    text-decoration: none;
+    color: var(--quote-background);
+    font-weight: lighter;
+}
+
+ul{
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: var(--button);
+    color: var(--text-color-main);
+    border-style: none;
+  }
+
+.header{
+    background-color: var(--dark-background);
+    display:flex;
+    margin: 0;
+ 
+}
+
+.header-list{
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: 150px;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    font-size: 18px;
+}
+
+.header-logo{
+    font-weight: 900;
+    font-size: 24px;
+    color: var(--text-color-main);
+    margin-left: 150px;
+}
+
+
+.hero{
+    font-size: 48px;
+    color:var(--text-color-main);
+    background-color: var(--dark-background);
+    margin: 0px;
+    padding: 100px;
+    display: flex;
+}
+
+.hero-title{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-image{
+    max-height: 400px;
+    max-width: 500px;
+}
+
+.hero-right{
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.hero-left{
+    margin-left: 50px;
+    padding-right: 200px;
+}
+
+.hero-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info-boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    font-weight: lighter;
+}
+
+.info-img{
+    height: 130px;
+    width: 130px;
+    padding: 30px 70px 0px 30px;
+
+}
+
+.info-p{
+    font-weight: lighter;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding:20px;
+}
+
+.quote{
+    background-color: var(--quote-background);
+    text-align: center;
+    padding:60px;
+    font-size: 36px;
+    color:#1F2937;
+}
+
+.quote-text{
+    font-style: italic;
+}
+
+.quote-auth{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 60px;
+}
+
+.call-container{
+    background-color:#3882F6;
+    margin:60px 160px;
+    padding: 40px 80px;
+    border-radius: 8px;
+    display: flex;
+    color: #F9FAF8;
+}
+
+.sign-up-button{
+    margin-left: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-color: #F9FAF8;
+    border-width: 2px;
+    border-style:ridge;
+}
+
+.call-title{
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: -10px;
+}
+
+.call-text{
+    font-size: 14px;
+}
+
